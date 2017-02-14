@@ -51,6 +51,11 @@
     return self;
 }
 
+- (void)drawRect:(CGRect)rect{
+
+    
+}
+
 #pragma mark - event response
 - (void)changeLocation:(UIPanGestureRecognizer*)p
 {

@@ -175,6 +175,12 @@
 		0A1FD9BF1E5173F1002BFD1D /* ZYSuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FD91B1E5173F1002BFD1D /* ZYSuspensionView.m */; };
 		0A1FD9C21E5174E2002BFD1D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1FD9C11E5174E2002BFD1D /* libz.tbd */; };
 		0A1FD9C41E5174EB002BFD1D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1FD9C31E5174EB002BFD1D /* libsqlite3.tbd */; };
+		0A1FD9D41E51BD3A002BFD1D /* TYWaterWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1FD9D01E51BD3A002BFD1D /* TYWaterWaveView.h */; };
+		0A1FD9D51E51BD3A002BFD1D /* TYWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FD9D11E51BD3A002BFD1D /* TYWaterWaveView.m */; };
+		0A1FD9D61E51BD3A002BFD1D /* TYWaveProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1FD9D21E51BD3A002BFD1D /* TYWaveProgressView.h */; };
+		0A1FD9D71E51BD3A002BFD1D /* TYWaveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FD9D31E51BD3A002BFD1D /* TYWaveProgressView.m */; };
+		0A629FF81E529C4900534398 /* NHDevicinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A629FF61E529C4900534398 /* NHDevicinfo.h */; };
+		0A629FF91E529C4900534398 /* NHDevicinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A629FF71E529C4900534398 /* NHDevicinfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -359,6 +365,12 @@
 		0A1FD91B1E5173F1002BFD1D /* ZYSuspensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSuspensionView.m; sourceTree = "<group>"; };
 		0A1FD9C11E5174E2002BFD1D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		0A1FD9C31E5174EB002BFD1D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0A1FD9D01E51BD3A002BFD1D /* TYWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYWaterWaveView.h; sourceTree = "<group>"; };
+		0A1FD9D11E51BD3A002BFD1D /* TYWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYWaterWaveView.m; sourceTree = "<group>"; };
+		0A1FD9D21E51BD3A002BFD1D /* TYWaveProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYWaveProgressView.h; sourceTree = "<group>"; };
+		0A1FD9D31E51BD3A002BFD1D /* TYWaveProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYWaveProgressView.m; sourceTree = "<group>"; };
+		0A629FF61E529C4900534398 /* NHDevicinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDevicinfo.h; sourceTree = "<group>"; };
+		0A629FF71E529C4900534398 /* NHDevicinfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDevicinfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -404,9 +416,11 @@
 		0A1FD8511E5173BB002BFD1D /* NHDebuggerTool */ = {
 			isa = PBXGroup;
 			children = (
-				0A1FD8691E5173F1002BFD1D /* Classes */,
 				0A1FD9131E5173F1002BFD1D /* NHDebuggerTool.h */,
 				0A1FD9141E5173F1002BFD1D /* NHDebuggerTool.m */,
+				0A629FF51E529C4900534398 /* Deviceinfo */,
+				0A1FD8691E5173F1002BFD1D /* Classes */,
+				0A1FD9CF1E51BD3A002BFD1D /* TYWaveProgressView */,
 				0A1FD9151E5173F1002BFD1D /* ZYSuspensionView */,
 				0A1FD8531E5173BB002BFD1D /* Info.plist */,
 			);
@@ -711,6 +725,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		0A1FD9CF1E51BD3A002BFD1D /* TYWaveProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				0A1FD9D01E51BD3A002BFD1D /* TYWaterWaveView.h */,
+				0A1FD9D11E51BD3A002BFD1D /* TYWaterWaveView.m */,
+				0A1FD9D21E51BD3A002BFD1D /* TYWaveProgressView.h */,
+				0A1FD9D31E51BD3A002BFD1D /* TYWaveProgressView.m */,
+			);
+			path = TYWaveProgressView;
+			sourceTree = "<group>";
+		};
+		0A629FF51E529C4900534398 /* Deviceinfo */ = {
+			isa = PBXGroup;
+			children = (
+				0A629FF61E529C4900534398 /* NHDevicinfo.h */,
+				0A629FF71E529C4900534398 /* NHDevicinfo.m */,
+			);
+			path = Deviceinfo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -720,6 +754,8 @@
 			files = (
 				0A1FD9B81E5173F1002BFD1D /* NHDebuggerTool.h in Headers */,
 				0A1FD94E1E5173F1002BFD1D /* FLEXSQLiteDatabaseManager.h in Headers */,
+				0A1FD9D61E51BD3A002BFD1D /* TYWaveProgressView.h in Headers */,
+				0A1FD9D41E51BD3A002BFD1D /* TYWaterWaveView.h in Headers */,
 				0A1FD96D1E5173F1002BFD1D /* FLEXWebViewController.h in Headers */,
 				0A1FD97B1E5173F1002BFD1D /* FLEXNetworkRecorder.h in Headers */,
 				0A1FD9381E5173F1002BFD1D /* FLEXFieldEditorView.h in Headers */,
@@ -768,6 +804,7 @@
 				0A1FD98E1E5173F1002BFD1D /* FLEXDictionaryExplorerViewController.h in Headers */,
 				0A1FD9921E5173F1002BFD1D /* FLEXImageExplorerViewController.h in Headers */,
 				0A1FD9A61E5173F1002BFD1D /* FLEXKeyboardHelpViewController.h in Headers */,
+				0A629FF81E529C4900534398 /* NHDevicinfo.h in Headers */,
 				0A1FD9461E5173F1002BFD1D /* FLEX.h in Headers */,
 				0A1FD9A81E5173F1002BFD1D /* FLEXKeyboardShortcutManager.h in Headers */,
 				0A1FD97D1E5173F1002BFD1D /* FLEXNetworkSettingsTableViewController.h in Headers */,
@@ -923,9 +960,11 @@
 				0A1FD9451E5173F1002BFD1D /* FLEXWindow.m in Sources */,
 				0A1FD98F1E5173F1002BFD1D /* FLEXDictionaryExplorerViewController.m in Sources */,
 				0A1FD96E1E5173F1002BFD1D /* FLEXWebViewController.m in Sources */,
+				0A1FD9D51E51BD3A002BFD1D /* TYWaterWaveView.m in Sources */,
 				0A1FD95C1E5173F1002BFD1D /* FLEXClassesTableViewController.m in Sources */,
 				0A1FD9511E5173F1002BFD1D /* FLEXTableColumnHeader.m in Sources */,
 				0A1FD9591E5173F1002BFD1D /* FLEXTableListViewController.m in Sources */,
+				0A1FD9D71E51BD3A002BFD1D /* TYWaveProgressView.m in Sources */,
 				0A1FD94A1E5173F1002BFD1D /* FLEXMultiColumnTableView.m in Sources */,
 				0A1FD9841E5173F1002BFD1D /* FLEXNetworkTransactionTableViewCell.m in Sources */,
 				0A1FD9571E5173F1002BFD1D /* FLEXTableLeftCell.m in Sources */,
@@ -944,6 +983,7 @@
 				0A1FD9681E5173F1002BFD1D /* FLEXInstancesTableViewController.m in Sources */,
 				0A1FD98D1E5173F1002BFD1D /* FLEXDefaultsExplorerViewController.m in Sources */,
 				0A1FD9821E5173F1002BFD1D /* FLEXNetworkTransactionDetailTableViewController.m in Sources */,
+				0A629FF91E529C4900534398 /* NHDevicinfo.m in Sources */,
 				0A1FD9B31E5173F1002BFD1D /* FLEXHierarchyTableViewCell.m in Sources */,
 				0A1FD9251E5173F1002BFD1D /* FLEXArgumentInputJSONObjectView.m in Sources */,
 				0A1FD9931E5173F1002BFD1D /* FLEXImageExplorerViewController.m in Sources */,
@@ -1182,6 +1222,7 @@
 				0A1FD8651E5173BB002BFD1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A1FD8661E5173BB002BFD1D /* Build configuration list for PBXNativeTarget "NHDebuggerToolTests" */ = {
 			isa = XCConfigurationList;
@@ -1190,6 +1231,7 @@
 				0A1FD8681E5173BB002BFD1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
