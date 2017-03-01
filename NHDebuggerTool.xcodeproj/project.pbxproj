@@ -179,6 +179,10 @@
 		0A1FD9D51E51BD3A002BFD1D /* TYWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FD9D11E51BD3A002BFD1D /* TYWaterWaveView.m */; };
 		0A1FD9D61E51BD3A002BFD1D /* TYWaveProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1FD9D21E51BD3A002BFD1D /* TYWaveProgressView.h */; };
 		0A1FD9D71E51BD3A002BFD1D /* TYWaveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FD9D31E51BD3A002BFD1D /* TYWaveProgressView.m */; };
+		0A46002B1E66DFA000EF5285 /* JPFPSStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4600291E66DFA000EF5285 /* JPFPSStatus.h */; };
+		0A46002C1E66DFA000EF5285 /* JPFPSStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46002A1E66DFA000EF5285 /* JPFPSStatus.m */; };
+		0A4C013A1E5EF96500EC135B /* touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C01381E5EF96500EC135B /* touch.png */; };
+		0A4C013B1E5EF96500EC135B /* touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C01391E5EF96500EC135B /* touch@2x.png */; };
 		0A629FF81E529C4900534398 /* NHDevicinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A629FF61E529C4900534398 /* NHDevicinfo.h */; };
 		0A629FF91E529C4900534398 /* NHDevicinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A629FF71E529C4900534398 /* NHDevicinfo.m */; };
 /* End PBXBuildFile section */
@@ -369,6 +373,10 @@
 		0A1FD9D11E51BD3A002BFD1D /* TYWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYWaterWaveView.m; sourceTree = "<group>"; };
 		0A1FD9D21E51BD3A002BFD1D /* TYWaveProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYWaveProgressView.h; sourceTree = "<group>"; };
 		0A1FD9D31E51BD3A002BFD1D /* TYWaveProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYWaveProgressView.m; sourceTree = "<group>"; };
+		0A4600291E66DFA000EF5285 /* JPFPSStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFPSStatus.h; sourceTree = "<group>"; };
+		0A46002A1E66DFA000EF5285 /* JPFPSStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFPSStatus.m; sourceTree = "<group>"; };
+		0A4C01381E5EF96500EC135B /* touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touch.png; sourceTree = "<group>"; };
+		0A4C01391E5EF96500EC135B /* touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch@2x.png"; sourceTree = "<group>"; };
 		0A629FF61E529C4900534398 /* NHDevicinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDevicinfo.h; sourceTree = "<group>"; };
 		0A629FF71E529C4900534398 /* NHDevicinfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDevicinfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -430,6 +438,8 @@
 		0A1FD85C1E5173BB002BFD1D /* NHDebuggerToolTests */ = {
 			isa = PBXGroup;
 			children = (
+				0A4C01381E5EF96500EC135B /* touch.png */,
+				0A4C01391E5EF96500EC135B /* touch@2x.png */,
 				0A1FD85D1E5173BB002BFD1D /* NHDebuggerToolTests.m */,
 				0A1FD85F1E5173BB002BFD1D /* Info.plist */,
 			);
@@ -739,6 +749,8 @@
 		0A629FF51E529C4900534398 /* Deviceinfo */ = {
 			isa = PBXGroup;
 			children = (
+				0A4600291E66DFA000EF5285 /* JPFPSStatus.h */,
+				0A46002A1E66DFA000EF5285 /* JPFPSStatus.m */,
 				0A629FF61E529C4900534398 /* NHDevicinfo.h */,
 				0A629FF71E529C4900534398 /* NHDevicinfo.m */,
 			);
@@ -823,6 +835,7 @@
 				0A1FD9421E5173F1002BFD1D /* FLEXExplorerViewController.h in Headers */,
 				0A1FD9501E5173F1002BFD1D /* FLEXTableColumnHeader.h in Headers */,
 				0A1FD9361E5173F1002BFD1D /* FLEXDefaultEditorViewController.h in Headers */,
+				0A46002B1E66DFA000EF5285 /* JPFPSStatus.h in Headers */,
 				0A1FD9441E5173F1002BFD1D /* FLEXWindow.h in Headers */,
 				0A1FD9B21E5173F1002BFD1D /* FLEXHierarchyTableViewCell.h in Headers */,
 				0A1FD9AA1E5173F1002BFD1D /* FLEXMultilineTableViewCell.h in Headers */,
@@ -932,6 +945,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4C013B1E5EF96500EC135B /* touch@2x.png in Resources */,
+				0A4C013A1E5EF96500EC135B /* touch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,6 +992,7 @@
 				0A1FD9431E5173F1002BFD1D /* FLEXExplorerViewController.m in Sources */,
 				0A1FD9BF1E5173F1002BFD1D /* ZYSuspensionView.m in Sources */,
 				0A1FD9B11E5173F1002BFD1D /* FLEXUtility.m in Sources */,
+				0A46002C1E66DFA000EF5285 /* JPFPSStatus.m in Sources */,
 				0A1FD9A71E5173F1002BFD1D /* FLEXKeyboardHelpViewController.m in Sources */,
 				0A1FD99D1E5173F1002BFD1D /* FLEXViewControllerExplorerViewController.m in Sources */,
 				0A1FD93D1E5173F1002BFD1D /* FLEXIvarEditorViewController.m in Sources */,

@@ -12,8 +12,9 @@
 #import "FLEXManager.h"
 #import "NHDevicinfo.h"
 #import "TYWaveProgressView.h"
+#import "JPFPSStatus.h"
 
-static NHDebuggerTool *magager;
+static NHDebuggerTool *manager;
 
 @interface NHDebuggerTool ()<ZYSuspensionViewDelegate,NHDevicinfoDelegate>
 @property (nonatomic, strong)ZYSuspensionView *sus;
@@ -30,20 +31,22 @@ static NHDebuggerTool *magager;
 + (id)shareInstanceDelegate:(id)delegate{
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        if (magager == nil) {
-            magager = [[NHDebuggerTool alloc]init];
-            magager.isShowFELX = YES;
-            magager.delegate = delegate;
+        if (manager == nil) {
+            manager = [[NHDebuggerTool alloc]init];
+            manager.isShowFELX = YES;
+            manager.delegate = delegate;
             
-            magager.sus = [ZYSuspensionView defaultSuspensionViewWithDelegate:magager];
-            [magager.sus show];
-            [magager addWaveProgressView];
+            manager.sus = [ZYSuspensionView defaultSuspensionViewWithDelegate:manager];
+            [manager.sus show];
+            [manager addWaveProgressView];
             
-            magager.devicinfo = [[NHDevicinfo alloc] init];
-            magager.devicinfo.delegate = magager;
+            manager.devicinfo = [[NHDevicinfo alloc] init];
+            manager.devicinfo.delegate = manager;
+            
+            [[JPFPSStatus sharedInstance] openOnView:manager.sus];
         }
     });
-    return magager;
+    return manager;
 }
 
 
@@ -58,15 +61,14 @@ static NHDebuggerTool *magager;
         [_waveProgressView setFirstWaveColor:[UIColor greenColor]];
     }
     [_waveProgressView startWave];
-    _waveProgressView.numberLabel.text = [NSString stringWithFormat:@"%.2f",cpu];
+    _waveProgressView.numberLabel.text = [NSString stringWithFormat:@"%.1f",cpu];
     _waveProgressView.explainLabel.text = memory;
 }
 
 - (void)addWaveProgressView
 {
-    TYWaveProgressView *waveProgressView = [[TYWaveProgressView alloc]initWithFrame:magager.sus.bounds];
+    TYWaveProgressView *waveProgressView = [[TYWaveProgressView alloc]initWithFrame:manager.sus.bounds];
     waveProgressView.waveViewMargin = UIEdgeInsetsMake(1, 1, 1, 1);
-    waveProgressView.backgroundImageView.image = [UIImage imageNamed:@"bg_tk_003"];
     waveProgressView.numberLabel.text = @"0M";
     waveProgressView.numberLabel.font = [UIFont boldSystemFontOfSize:10];
     waveProgressView.numberLabel.textColor = [UIColor whiteColor];
@@ -77,29 +79,29 @@ static NHDebuggerTool *magager;
     waveProgressView.explainLabel.font = [UIFont systemFontOfSize:8];
     waveProgressView.explainLabel.textColor = [UIColor whiteColor];
     waveProgressView.userInteractionEnabled = NO;
-    [magager.sus addSubview:waveProgressView];
+    [manager.sus addSubview:waveProgressView];
     _waveProgressView = waveProgressView;
     [_waveProgressView startWave];
 }
 
 + (void)showSuspensionView{
-    [magager showSuspensionView];
+    [manager showSuspensionView];
 }
 
 - (void)showSuspensionView
 {
-    magager.sus.hidden = NO;
+    manager.sus.hidden = NO;
 }
 
 + (void)hiddenSuspensionView{
-   [magager hiddenSuspensionView];
+   [manager hiddenSuspensionView];
 }
 - (void)hiddenSuspensionView{
-    magager.sus.hidden = YES;
+    manager.sus.hidden = YES;
 }
 
 + (BOOL)suspensionViewIsHidden{
-    return magager.sus.hidden;
+    return manager.sus.hidden;
 }
 
 - (void)suspensionViewClick:(ZYSuspensionView *)suspensionView{
@@ -111,17 +113,17 @@ static NHDebuggerTool *magager;
         }
     }
     
-    if (magager.delegate && [magager.delegate respondsToSelector:@selector(nhSuspensionViewClick:)]) {
-        [magager.delegate nhSuspensionViewClick:self];
+    if (manager.delegate && [manager.delegate respondsToSelector:@selector(nhSuspensionViewClick:)]) {
+        [manager.delegate nhSuspensionViewClick:self];
     }
 }
 
 
 + (void)removeSuspensionViewFromScreen{
-    [magager removeSuspensionViewFromScreen];
+    [manager removeSuspensionViewFromScreen];
 }
 - (void)removeSuspensionViewFromScreen{
-    [magager.sus removeFromScreen];
+    [manager.sus removeFromScreen];
 }
 
 
