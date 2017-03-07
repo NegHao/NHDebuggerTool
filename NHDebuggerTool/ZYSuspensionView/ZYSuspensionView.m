@@ -86,7 +86,7 @@
         }else{
             minSpace = MIN(MIN(MIN(top, left), bottom), right);
         }
-       __block CGPoint newCenter;
+        CGPoint newCenter = CGPointZero;
         CGFloat targetY = 0;
         
         //校正Y
