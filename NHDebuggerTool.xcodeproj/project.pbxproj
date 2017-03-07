@@ -71,7 +71,6 @@
 		0A1FD9571E5173F1002BFD1D /* FLEXTableLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FD8AA1E5173F1002BFD1D /* FLEXTableLeftCell.m */; };
 		0A1FD9581E5173F1002BFD1D /* FLEXTableListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1FD8AB1E5173F1002BFD1D /* FLEXTableListViewController.h */; };
 		0A1FD9591E5173F1002BFD1D /* FLEXTableListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FD8AC1E5173F1002BFD1D /* FLEXTableListViewController.m */; };
-		0A1FD95A1E5173F1002BFD1D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FD8AD1E5173F1002BFD1D /* LICENSE */; };
 		0A1FD95B1E5173F1002BFD1D /* FLEXClassesTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1FD8AE1E5173F1002BFD1D /* FLEXClassesTableViewController.h */; };
 		0A1FD95C1E5173F1002BFD1D /* FLEXClassesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FD8AF1E5173F1002BFD1D /* FLEXClassesTableViewController.m */; };
 		0A1FD95D1E5173F1002BFD1D /* FLEXCookiesTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1FD8B01E5173F1002BFD1D /* FLEXCookiesTableViewController.h */; };
@@ -116,7 +115,6 @@
 		0A1FD9841E5173F1002BFD1D /* FLEXNetworkTransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FD8DA1E5173F1002BFD1D /* FLEXNetworkTransactionTableViewCell.m */; };
 		0A1FD9851E5173F1002BFD1D /* FLEXNetworkObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1FD8DC1E5173F1002BFD1D /* FLEXNetworkObserver.h */; };
 		0A1FD9861E5173F1002BFD1D /* FLEXNetworkObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FD8DD1E5173F1002BFD1D /* FLEXNetworkObserver.m */; };
-		0A1FD9871E5173F1002BFD1D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0A1FD8DE1E5173F1002BFD1D /* LICENSE */; };
 		0A1FD9881E5173F1002BFD1D /* FLEXArrayExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1FD8E01E5173F1002BFD1D /* FLEXArrayExplorerViewController.h */; };
 		0A1FD9891E5173F1002BFD1D /* FLEXArrayExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FD8E11E5173F1002BFD1D /* FLEXArrayExplorerViewController.m */; };
 		0A1FD98A1E5173F1002BFD1D /* FLEXClassExplorerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1FD8E21E5173F1002BFD1D /* FLEXClassExplorerViewController.h */; };
@@ -265,7 +263,6 @@
 		0A1FD8AA1E5173F1002BFD1D /* FLEXTableLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXTableLeftCell.m; sourceTree = "<group>"; };
 		0A1FD8AB1E5173F1002BFD1D /* FLEXTableListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXTableListViewController.h; sourceTree = "<group>"; };
 		0A1FD8AC1E5173F1002BFD1D /* FLEXTableListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXTableListViewController.m; sourceTree = "<group>"; };
-		0A1FD8AD1E5173F1002BFD1D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0A1FD8AE1E5173F1002BFD1D /* FLEXClassesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXClassesTableViewController.h; sourceTree = "<group>"; };
 		0A1FD8AF1E5173F1002BFD1D /* FLEXClassesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXClassesTableViewController.m; sourceTree = "<group>"; };
 		0A1FD8B01E5173F1002BFD1D /* FLEXCookiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXCookiesTableViewController.h; sourceTree = "<group>"; };
@@ -310,7 +307,6 @@
 		0A1FD8DA1E5173F1002BFD1D /* FLEXNetworkTransactionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXNetworkTransactionTableViewCell.m; sourceTree = "<group>"; };
 		0A1FD8DC1E5173F1002BFD1D /* FLEXNetworkObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXNetworkObserver.h; sourceTree = "<group>"; };
 		0A1FD8DD1E5173F1002BFD1D /* FLEXNetworkObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXNetworkObserver.m; sourceTree = "<group>"; };
-		0A1FD8DE1E5173F1002BFD1D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0A1FD8E01E5173F1002BFD1D /* FLEXArrayExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXArrayExplorerViewController.h; sourceTree = "<group>"; };
 		0A1FD8E11E5173F1002BFD1D /* FLEXArrayExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXArrayExplorerViewController.m; sourceTree = "<group>"; };
 		0A1FD8E21E5173F1002BFD1D /* FLEXClassExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXClassExplorerViewController.h; sourceTree = "<group>"; };
@@ -578,7 +574,6 @@
 				0A1FD8AA1E5173F1002BFD1D /* FLEXTableLeftCell.m */,
 				0A1FD8AB1E5173F1002BFD1D /* FLEXTableListViewController.h */,
 				0A1FD8AC1E5173F1002BFD1D /* FLEXTableListViewController.m */,
-				0A1FD8AD1E5173F1002BFD1D /* LICENSE */,
 			);
 			path = DatabaseBrowser;
 			sourceTree = "<group>";
@@ -632,7 +627,6 @@
 			children = (
 				0A1FD8DC1E5173F1002BFD1D /* FLEXNetworkObserver.h */,
 				0A1FD8DD1E5173F1002BFD1D /* FLEXNetworkObserver.m */,
-				0A1FD8DE1E5173F1002BFD1D /* LICENSE */,
 			);
 			path = PonyDebugger;
 			sourceTree = "<group>";
@@ -936,8 +930,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A1FD9871E5173F1002BFD1D /* LICENSE in Resources */,
-				0A1FD95A1E5173F1002BFD1D /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

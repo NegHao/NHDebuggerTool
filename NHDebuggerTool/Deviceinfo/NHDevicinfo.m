@@ -7,6 +7,7 @@
 //
 
 #import "NHDevicinfo.h"
+#import <UIKit/UIKit.h>
 #include <mach/mach.h>
 #include <malloc/malloc.h>
 #include <ifaddrs.h>
@@ -202,9 +203,9 @@
         }
         else
         {
-            natural_t mem_used = (vm_stat.active_count + vm_stat.inactive_count + vm_stat.wire_count) * pagesize;
-            natural_t mem_free = vm_stat.free_count * pagesize;
-            natural_t mem_total = mem_used + mem_free;
+            unsigned long mem_used = (vm_stat.active_count + vm_stat.inactive_count + vm_stat.wire_count) * pagesize;
+            unsigned long mem_free = vm_stat.free_count * pagesize;
+            unsigned long mem_total = mem_used + mem_free;
             
             _usedBytes_m = mem_used;
             _totalBytes_m = mem_total;
