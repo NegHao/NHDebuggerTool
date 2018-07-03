@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8052AAA120EB4D140064C434 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8052AAA020EB4D140064C434 /* AppDelegate.m */; };
+		8052AAA420EB4D140064C434 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8052AAA320EB4D140064C434 /* ViewController.m */; };
+		8052AAA720EB4D140064C434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8052AAA520EB4D140064C434 /* Main.storyboard */; };
+		8052AAA920EB4D1C0064C434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8052AAA820EB4D1C0064C434 /* Assets.xcassets */; };
+		8052AAAC20EB4D1C0064C434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8052AAAA20EB4D1C0064C434 /* LaunchScreen.storyboard */; };
+		8052AAAF20EB4D1C0064C434 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8052AAAE20EB4D1C0064C434 /* main.m */; };
+		8052AAC120EB4D440064C434 /* NHDebuggerTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8052AABB20EB4D2C0064C434 /* NHDebuggerTool.framework */; };
+		8052AAC520EB4FBA0064C434 /* NHDebuggerTool.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8052AABB20EB4D2C0064C434 /* NHDebuggerTool.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8052AABA20EB4D2C0064C434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8052AAB520EB4D2B0064C434 /* NHDebuggerTool.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A1FD84F1E5173BB002BFD1D;
+			remoteInfo = NHDebuggerTool;
+		};
+		8052AABC20EB4D2C0064C434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8052AAB520EB4D2B0064C434 /* NHDebuggerTool.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A1FD8581E5173BB002BFD1D;
+			remoteInfo = NHDebuggerToolTests;
+		};
+		8052AABE20EB4D3C0064C434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8052AAB520EB4D2B0064C434 /* NHDebuggerTool.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A1FD84E1E5173BB002BFD1D;
+			remoteInfo = NHDebuggerTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8052AAC420EB4FB50064C434 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8052AAC520EB4FBA0064C434 /* NHDebuggerTool.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8052AA9C20EB4D140064C434 /* NHDebuggerToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHDebuggerToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8052AA9F20EB4D140064C434 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8052AAA020EB4D140064C434 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8052AAA220EB4D140064C434 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8052AAA320EB4D140064C434 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8052AAA620EB4D140064C434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8052AAA820EB4D1C0064C434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8052AAAB20EB4D1C0064C434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8052AAAD20EB4D1C0064C434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8052AAAE20EB4D1C0064C434 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8052AAB520EB4D2B0064C434 /* NHDebuggerTool.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NHDebuggerTool.xcodeproj; path = ../../NHDebuggerTool.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8052AA9920EB4D140064C434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8052AAC120EB4D440064C434 /* NHDebuggerTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8052AA9320EB4D140064C434 = {
+			isa = PBXGroup;
+			children = (
+				8052AAB520EB4D2B0064C434 /* NHDebuggerTool.xcodeproj */,
+				8052AA9E20EB4D140064C434 /* NHDebuggerToolDemo */,
+				8052AA9D20EB4D140064C434 /* Products */,
+				8052AAC020EB4D440064C434 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8052AA9D20EB4D140064C434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8052AA9C20EB4D140064C434 /* NHDebuggerToolDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8052AA9E20EB4D140064C434 /* NHDebuggerToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8052AA9F20EB4D140064C434 /* AppDelegate.h */,
+				8052AAA020EB4D140064C434 /* AppDelegate.m */,
+				8052AAA220EB4D140064C434 /* ViewController.h */,
+				8052AAA320EB4D140064C434 /* ViewController.m */,
+				8052AAA520EB4D140064C434 /* Main.storyboard */,
+				8052AAA820EB4D1C0064C434 /* Assets.xcassets */,
+				8052AAAA20EB4D1C0064C434 /* LaunchScreen.storyboard */,
+				8052AAAD20EB4D1C0064C434 /* Info.plist */,
+				8052AAAE20EB4D1C0064C434 /* main.m */,
+			);
+			path = NHDebuggerToolDemo;
+			sourceTree = "<group>";
+		};
+		8052AAB620EB4D2B0064C434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8052AABB20EB4D2C0064C434 /* NHDebuggerTool.framework */,
+				8052AABD20EB4D2C0064C434 /* NHDebuggerToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8052AAC020EB4D440064C434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8052AA9B20EB4D140064C434 /* NHDebuggerToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8052AAB220EB4D1C0064C434 /* Build configuration list for PBXNativeTarget "NHDebuggerToolDemo" */;
+			buildPhases = (
+				8052AA9820EB4D140064C434 /* Sources */,
+				8052AA9920EB4D140064C434 /* Frameworks */,
+				8052AA9A20EB4D140064C434 /* Resources */,
+				8052AAC420EB4FB50064C434 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8052AABF20EB4D3C0064C434 /* PBXTargetDependency */,
+			);
+			name = NHDebuggerToolDemo;
+			productName = NHDebuggerToolDemo;
+			productReference = 8052AA9C20EB4D140064C434 /* NHDebuggerToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8052AA9420EB4D140064C434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = nenhall_studio;
+				TargetAttributes = {
+					8052AA9B20EB4D140064C434 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8052AA9720EB4D140064C434 /* Build configuration list for PBXProject "NHDebuggerToolDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8052AA9320EB4D140064C434;
+			productRefGroup = 8052AA9D20EB4D140064C434 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8052AAB620EB4D2B0064C434 /* Products */;
+					ProjectRef = 8052AAB520EB4D2B0064C434 /* NHDebuggerTool.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8052AA9B20EB4D140064C434 /* NHDebuggerToolDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8052AABB20EB4D2C0064C434 /* NHDebuggerTool.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NHDebuggerTool.framework;
+			remoteRef = 8052AABA20EB4D2C0064C434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8052AABD20EB4D2C0064C434 /* NHDebuggerToolTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NHDebuggerToolTests.xctest;
+			remoteRef = 8052AABC20EB4D2C0064C434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8052AA9A20EB4D140064C434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8052AAAC20EB4D1C0064C434 /* LaunchScreen.storyboard in Resources */,
+				8052AAA920EB4D1C0064C434 /* Assets.xcassets in Resources */,
+				8052AAA720EB4D140064C434 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8052AA9820EB4D140064C434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8052AAA420EB4D140064C434 /* ViewController.m in Sources */,
+				8052AAAF20EB4D1C0064C434 /* main.m in Sources */,
+				8052AAA120EB4D140064C434 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8052AABF20EB4D3C0064C434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NHDebuggerTool;
+			targetProxy = 8052AABE20EB4D3C0064C434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8052AAA520EB4D140064C434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8052AAA620EB4D140064C434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8052AAAA20EB4D1C0064C434 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8052AAAB20EB4D1C0064C434 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8052AAB020EB4D1C0064C434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8052AAB120EB4D1C0064C434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8052AAB320EB4D1C0064C434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/NHDebuggerToolDemo-bfqoslwftkbtzjbvfrzmiplkvsjx/Build/Products/Debug-iphoneos/";
+				INFOPLIST_FILE = NHDebuggerToolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nenhall.NHDebuggerToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8052AAB420EB4D1C0064C434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/NHDebuggerToolDemo-bfqoslwftkbtzjbvfrzmiplkvsjx/Build/Products/Debug-iphoneos/";
+				INFOPLIST_FILE = NHDebuggerToolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nenhall.NHDebuggerToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8052AA9720EB4D140064C434 /* Build configuration list for PBXProject "NHDebuggerToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8052AAB020EB4D1C0064C434 /* Debug */,
+				8052AAB120EB4D1C0064C434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8052AAB220EB4D1C0064C434 /* Build configuration list for PBXNativeTarget "NHDebuggerToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8052AAB320EB4D1C0064C434 /* Debug */,
+				8052AAB420EB4D1C0064C434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8052AA9420EB4D140064C434 /* Project object */;
+}
